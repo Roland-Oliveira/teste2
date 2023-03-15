@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0 0 5px 0;
+    padding: 0px;
+    background-color: rgb(248, 248, 248);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 12px;
+    color: black;
+    
+    
+}
+
+
+
+
+#newsletter {    background-color: #25183e;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-left: 10px;
+   
+    
+   
+    
+
+} 
+
+ .info-news p{
+    
+display: inline;
+padding: 10px;
+
+}
+
+.info-news h2{
+    display: inline;
+padding-left:50%;
+}
+
+
+
+
+
+
+nav img {
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+   
+    display: inline-block;
+
+}
+
+nav{
+   
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+
+}
+
+nav .menu{
+    display: inline-block;
+    
+    
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: #25183e;
+    text-transform: uppercase;
+    
+    
+
+    
+
+   
+}
+
+a{
+    color: #25183e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+a:hover {
+    color: #08a8e7;
+}
+
+
+.banner{
+    width: auto;
+    height: 800px;
+    background-color: #666;
+    
+}
+
+
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .hero-text h1 {
+    margin-bottom: 5px;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: rgb(235, 0, 139);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 5px;
+   
+  }
+  
+  .hero-text button:hover {
+    background-color: #08a8e7;
+    color: white;
+    
+  }
+
+
+
+
+
+
+    #featured-courses{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    padding: 20px 0px;
+    
+}
+
+
+
+
+
+
+#featured-courses h2 {
+    margin-left: 10px;
+    color: #009fe3;
+}
+
+.sc_heading.text-left .line {
+    left: 0;
+    right: auto;
+}
+
+.courses{
+    width:350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+#featured-courses .img{
+    margin-top: 10px;
+   height: 30vh;
+   width: 350px;
+}
+.courses p{
+    display: inline-block;
+}
+
+.porto{
+    text-align: center;
+    color: #cc141f;
+}
+
+
+.gratuito{
+    color:#00d637;
+    padding-left: 180px;
+    
+}
+
+
+
+.banner-curso{
+    width: auto;
+    height: 400px;
+    background-color: #666;
+}
+
+
+.hero-image-curso {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner-curso.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner-curso h2{
+    color: #e6007e;
+    text-transform: uppercase;
+    margin: 10px;
+    padding-top: 30px;
+    
+  }
+
+  .numeros-card {
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    
+    
+  }
+  .numeros-card h1{
+    color:#25183e;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 12px;
+  }
+
+  .numeros-card p{
+    color:#666;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+  }
+  #numeros h3{
+    text-transform: uppercase;
+    color: #009fe3;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 2px;
+    text-align: center;
+  }
+  .sub-titulo{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+
+  }
+  
+  .carrosel-numeros{
+    
+    align-items: center;
+    margin-left: 20%;
+  }
+  .numeros{
+   
+    width: auto;
+    height: 300px;
+    
+    
+
+  }
+
+  
+
+
+  footer p{
+    width: auto;
+    color: #fff;
+    background-color: #25183e;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #rodape {
+    background-color: #666;
+    color: white;
+}
+
+#rodape img{
+    height: 60px;
+    padding: 10px;
+}
+
+
+#rodape .info-rodape{
+    height: auto;
+    display: inline-block;
+    padding: 20px; 
+    margin: 20px;
+    
+} 
+#rodape div.info-rodape:first-child{
+    width: 20%;
+    float: left;
+}
+#rodape div.info-rodape .img:first-child{
+    height: auto;
+}
